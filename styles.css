@@ -1,7 +1,8 @@
 :root {
     --primary-color: #0E1827;
     --secondary-color: #182435;
-    --primary-font: 'Roboto', sans-serif;
+    --font1: 'Roboto', sans-serif;
+    --font2: 'Open Sans', sans-serif;
     --text-color: grey;
 }
 
@@ -11,7 +12,7 @@ html{
 
 nav{
     background-color: var(--primary-color);
-    width: 80vw;
+    width: 90vw;
     height: 10vh;
     margin: auto;
     display: flex;
@@ -29,4 +30,31 @@ nav span{
     font-family: var(--primary-font);
     font-size: 1.2rem;
     color: var(--text-color);   
+}
+
+main section:nth-child(1){
+    width: 90vw;
+    height: 30vh;
+    margin: 10px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(71, 69, 86);
+    font-family: var(--primary-font); 
+     color: var(--text-color);
+}
+
+main section:nth-child(1) span:nth-child(1){
+    border : 2px solid rgb(142, 122, 122);
+    padding: 2px 50px;
+    font-size: 1.5rem; 
+    font-weight: bold;
+   
+}
+
+main section:nth-child(1) span:nth-child(2){
+    margin-top: 20px;
+    padding: 2px 50px;
+    font-size: 1.2rem; 
 }
