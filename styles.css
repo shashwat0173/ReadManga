@@ -82,3 +82,17 @@ main section:nth-child(1) span:nth-child(2){
     font-size: 1.2rem; 
     text-align: center;
 }
+
+.b{
+    margin: 20px auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: var(--primary-font);
+    font-size: 1.2rem;
+    width: 90vw;
+    height: auto;
+    color: var(--text-color);
+    background-color: var(--primary-color);
+    flex-direction: column;
+}
