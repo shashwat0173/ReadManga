@@ -54,3 +54,10 @@ main span{
     cursor: pointer;
     transition: background-color 0.2s, color 0.2s;
 }
+
+main img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
